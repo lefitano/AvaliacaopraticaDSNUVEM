@@ -1,0 +1,17 @@
+{
+  "name": "HTML-CSS-Page",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
+  "features": {},
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "esbenp.prettier-vscode",           
+        "ritwickdey.LiveServer",             
+        "ecmel.vscode-html-css",             
+        "abusaidm.html-snippets",           
+        "christian-kohler.path-intellisense" 
+      ]
+    }
+  },
+  "postCreateCommand": "npm install"
+}
